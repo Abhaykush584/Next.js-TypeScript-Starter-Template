@@ -1,7 +1,5 @@
 # Next.js TypeScript Starter Template
 
-A **production-ready**, **scalable**, and **actively maintained** starter template for building high-quality web apps with **Next.js**, **TypeScript**, and **Tailwind CSS**.
-
 <br/>
 <p align="center">
   <img
@@ -40,7 +38,7 @@ This starter template is designed for **developers of all levels** — from begi
 
 ## How to Start
 
-### Option 1: Create with CLI **`(Recommended)`**
+###  Create with CLI **`(Recommended)`**
 
 Quickly set up your Next.js + TypeScript + TailwindCSS project using the CLI tool:
 
@@ -67,95 +65,11 @@ During project creation, you'll be prompted to:
    - `🧶 yarn` (Reliable)
    - `📦 npm` (Standard)
 
-3. **Husky Integration**: Set up Git hooks with Husky for automatic code quality checks:
-
-   - `No` (Default - Simpler setup) - Uses the `without-husky` branch template
-   - `Yes` (Recommended for code quality) - Uses the `main` branch template
-
-### Husky Integration
-
-**Without Husky (Default):**
-
-- ⚠️ Git hooks are disabled
-- ✅ Cleaner setup for simpler projects
-- ✅ Uses the `without-husky` branch of the template
-- 🔧 You can manually add Git hooks later if needed
-
-**With Husky (Recommended):**
-
-- ✅ Git hooks are automatically configured
-- ✅ ESLint and Prettier run on commit
-- ✅ Pre-commit hooks ensure code quality
-- ✅ Uses the `main` branch of the template
-
-3. Follow the steps shown:
-   For example, if you choose `bun`:
-
-   ```bash
-   cd my-awesome-project
-   bun install
-   bun run dev
-   ```
-
-   **Note**: If you pick `bun`, make sure Bun is installed (`npm install -g bun` or visit [bun.sh](https://bun.sh)). For `pnpm` or `yarn`, install them first if needed.
-
-### Available Scripts
-
-The project includes several useful scripts:
-
-```bash
-# Development
-bun run dev          # Start development server with Turbopack
-bun run build        # Create production build
-bun run start        # Start production server
-bun run lint         # Run ESLint directly
-bun run lint:fix     # Fix ESLint errors
-bun run format       # Format code with Prettier
-bun run format:check # Check code formatting
-bun run clear-cache  # Clear Next.js cache, reinstall dependencies, and restart dev server
-```
-
-**Note**: Next.js 16 has removed the `next lint` command. The template now uses ESLint directly.
-
-The `clear-cache` script is particularly useful when you encounter build issues or need to reset your development environment. It:
-
-1. Removes the `.next` directory
-2. Reinstalls dependencies without using cache
-3. Restarts the development server
-
-#### Prerequisites
-
-- **Node.js**: Version 20.9.0 or higher (required for Next.js 16)
-- For **Bun**: Install via `npm install -g bun`
-- For **pnpm**: Install via `npm install -g pnpm`
-- For **Yarn**: Install via `npm install -g yarn`
-- For **npm**: Comes with Node.js
-
-#### What's Included
-
-After installation, you'll get:
-
-**Without Husky (Default - without-husky branch):**
-
-- ✅ Next.js 16 with App Router
-- ✅ TypeScript configuration
-- ✅ Tailwind CSS v4 setup
-- ✅ ESLint & Prettier
-- ✅ Project structure ready to go
-
-### Option 2: Use GitHub Template
-
-1. Click **[Use this template](https://github.com/Salman-Ahamed/Next.js-TypeScript-Starter-Template)** on GitHub.
-2. Name your new repository.
-3. Click `Create repository`.
-
-4. Set up locally:
-
    ```bash
    git clone https://github.com/[your-username]/[your-repo].git
    cd [your-repo]
-   bun install
-   bun run dev
+   npm install
+   pm run dev
    ```
 
 ## Project Structure
@@ -285,16 +199,6 @@ This template works with:
 
 Copy `.env.example` to `.env` for production settings.
 
-## Developer & Contributor
-
-<div align="center"> <table> <tr> <td align="center">
-<img src="https://github.com/Salman-Ahamed.png" width="80" height="80" alt="Salman Ahamed" /><br /> <b>Salman Ahamed</b><br/> <a href="https://github.com/Salman-Ahamed">GitHub</a> | <a href="https://www.linkedin.com/in/salman-ahamad-as/">LinkedIn</a> | <a href="mailto:shahriyar.hosen.dev@gmail.com">Email</a> </td> <td align="center">
-<img src="https://github.com/eyachirarafat.png" width="80" height="80" alt="Eyachir Arafat" /><br /> <b>Eyachir Arafat</b><br/> <a href="https://github.com/eyachirarafat">GitHub</a> | <a href="https://www.linkedin.com/in/eyachirarafat/">LinkedIn</a> | <a href="https://eyachirarafat.vercel.app/">Portfolio</a> </td> <td align="center">
-<img src="https://github.com/mdamzadhossainomor.png" width="80" height="80" alt="Md Amzad Hossain Omor" /><br /> <b>Md Amzad Hossain</b><br/> <a href="https://github.com/mdamzadhossainomor">GitHub</a> | <a href="https://www.linkedin.com/in/md-amzad-hossain-omor/">LinkedIn</a> | <a href="mailto:mdamzadhossainomor@gmail.com">Email</a> </td> <td align="center">
-<img src="https://github.com/Hashibul-Alam.png" width="80" height="80" alt="Hasibul Alam" /><br /> <b>Hasibul Alam</b><br/> <a href="https://github.com/Hashibul-Alam">GitHub</a> | <a href="https://www.linkedin.com/in/hasibul231/">LinkedIn</a> | <a href="mailto:sha31417@gmail.com">Email</a> </td> </tr> </table> </div>
-
----
-
 ## Changelog
 
 ### v1.4.0 (Latest)
@@ -329,10 +233,4 @@ Copy `.env.example` to `.env` for production settings.
 - **Beautiful UI**: Progress indicators and colorful output
 - **Fast Setup**: Quick project initialization with degit
 
-## Want to Help?
 
-Check our [CONTRIBUTING GUIDE](CONTRIBUTING.md) to contribute.
-
-## License
-
-Free to use under [MIT License](LICENSE). See the LICENSE file for details.
